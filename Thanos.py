@@ -17,10 +17,10 @@ def thanos(dir_path):
 
 
 print("=========start==========")
-path = input("choose an earch(dir), null is now folder")
+path = input("choose an earch(dir), null is now folder:  ")
 if path == '':
     path = os.getcwd()
-flag = input('press y to start , other to exit')
+flag = input('press y to start , other to exit:  ')
 if flag == 'y':
     thanos(path)
     print("==========finish===========")
