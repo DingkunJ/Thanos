@@ -2,23 +2,37 @@
 
 ## Linux
 
+### ThanosLocal
+
+1. 切换到要执行的的目录
+
+2. ```bash
+   path/ThanosLocal.sh	#path为sh所在目录
+   ```
+
+
+
+### ThanosRoot
+
+​	直接执行
+
 ```bash
-path /ThanosLocal.sh # The Path is current dir
-./ThanosRoot.sh
+path/ThanosRoot.sh
 ```
 
-ThanosLocal.sh is only delete the files of current directory;
+ThanosRoot.sh 删除一半的文件
 
-ThanosRoot.sh will delete all files except permission deny;
-
-
+**[示例](<https://github.com/DingkunJ/Thanos/wiki/ShellResultPreview>)**
 
 ## Win
 
 ```bash
 python Thanos.py
 or 
-click .exe
+click.exe
 ```
 
-If you want to delete C:/ ,maybe permission deny most of files, so you would have done nothing.
+C盘由于权限问题，可能无法删除
+
+**[示例](<https://github.com/DingkunJ/Thanos/wiki/WinResult>)**
+
